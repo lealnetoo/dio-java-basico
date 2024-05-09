@@ -20,9 +20,9 @@ public class ContaTerminal {
         System.out.print("Deposito inicial: ");
         double saldo = scanner.nextDouble();
 
-        System.out.println("Olá " + nome + 
-                            ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia
-                             + ", conta " + numeroConta + " e seu saldo "
+        System.out.println("Olá " + nome 
+                            + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia
+                            + ", conta " + numeroConta + " e seu saldo "
                             + String.format("%.2f", saldo) + " já está disponível para saque.");
 
     }
