@@ -25,5 +25,6 @@ public class ContaTerminal {
                             + ", conta " + numeroConta + " e seu saldo "
                             + String.format("%.2f", saldo) + " já está disponível para saque.");
 
+         scanner.close();
     }
 }
